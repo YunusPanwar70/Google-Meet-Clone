@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    /* background-color: black; */
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 17px;
+    height: 3%;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    margin-right: 150px;
+    gap: 10px;
+}
+
+nav h3 {
+    margin-right: 40px;
+}
+
+.img-section {
+    display: flex;
+    gap: 20px;
+}
+
+.img-section a img {
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+}

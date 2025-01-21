@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
-import one from '../assets/One-icone.svg'
-import two from '../assets/two.svg'
-import three from '../assets/three.svg'
+import one from '../../assets/One-icone.svg'
+import two from '../../assets/two.svg'
+import three from '../../assets/three.svg'
 const slides = [
   {
     image: one, // Replace with your image URL
@@ -36,11 +36,13 @@ function Sidebar() {
   return (
     <div className="carousel-container">
       <div className="carousel-slide">
+      <div className='imageContainer'>
         <img
           src={slides[currentSlide].image}
           alt={slides[currentSlide].title}
           className="carousel-image"
         />
+      </div>
         <h3 className="carousel-title">{slides[currentSlide].title}</h3>
         <p className="carousel-description">
           {slides[currentSlide].description}

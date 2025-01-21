@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 import './Header.css';
-import icone from '../assets/Google-meet.png';
-import chat from '../assets/chat.png';
-import dot from '../assets/dots.png';
-import question from '../assets/question.png';
-import setting from '../assets/setting.png';
+import icone from '../../assets/Google-meet.png';
+import chat from '../../assets/chat.png';
+import dot from '../../assets/dots.png';
+import question from '../../assets/question.png';
+import setting from '../../assets/setting.png';
 import { useState, useEffect } from 'react';
 
 function Header() {
@@ -24,7 +25,7 @@ function Header() {
                 <img className="logo" src={icone} alt="Meet Icon" />
             </div>
             <nav aria-label="Main Navigation">
-                <h3>{time} {date}</h3>
+                <h3>{time} - {date}</h3>
                 <div className="img-section">
                     {icons.map((icon, index) => (
                         <a href="#" key={index}>

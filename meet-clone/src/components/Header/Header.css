@@ -5,16 +5,13 @@
     font-family: "Google Sans", Roboto, Arial, sans-serif;
 }
 
-body {
-    height: 100vh;
-}
-
 header {
-    /* background-color: black; */
+    width: 100%;
     color: gray;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
 }
 
 .logo {
@@ -26,7 +23,7 @@ header {
 
 nav {
     display: flex;
-    margin-right: 150px;
+    /* margin-right: 150px; */
     gap: 10px;
 }
 
